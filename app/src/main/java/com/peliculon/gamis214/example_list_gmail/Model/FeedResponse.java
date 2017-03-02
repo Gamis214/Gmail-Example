@@ -11,12 +11,21 @@ public class FeedResponse {
     private int id;
     private boolean isImportant;
     private String picture;
+    private String timestamp;
     private String from;
     private String subject;
     private String message;
     private String pictimestampture;
     private boolean isRead;
     private int color = -1;
+
+    public String getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
+    }
 
     public int getColor() {
         return color;
